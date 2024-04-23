@@ -83,7 +83,7 @@ namespace CourseworkFifteen.texture
                 EntrancePanel.Visible = false;
 
                 string data = dataBase.getDataAccount(Properties.Settings.Default.IdUser);
-                MessageBox.Show("DATA >> " + data);
+                //MessageBox.Show("DATA >> " + data);
 
                 if (data != "")
                 {

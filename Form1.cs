@@ -40,10 +40,13 @@ namespace CourseworkFifteen
         {
             try
             {
-                string data = dataBase.getDataAccount(Properties.Settings.Default.IdUser);
-                string[] words = data.Split(' ');
-                label3.Text = words[3].Substring(3);
-                label4.Text = words[4];
+                if(Properties.Settings.Default.IdUser > 0)
+                {
+                    string data = dataBase.getDataAccount(Properties.Settings.Default.IdUser);
+                    string[] words = data.Split(' ');
+                    label3.Text = words[3].Substring(3);
+                    label4.Text = words[4];
+                }
             }
             catch (Exception)
             {
@@ -155,7 +158,7 @@ namespace CourseworkFifteen
                 catch (Exception exp)
                 {
                     sound.PlayOneShotAudio(2);
-                    MessageBox.Show("Ошибка генерации карты: " + exp.Message, "Error", MessageBoxButtons.OK);
+                    MessageBox.Show($"Ошибка генерации карты >> {exp.Message} >> {exp.StackTrace}");
                 }
             }
             else
@@ -418,8 +421,12 @@ namespace CourseworkFifteen
             {
                 RoundTimeMinute++;
                 RoundTimeSecond = 0;
-                //ВЫ ПРАИГРАЛИ ХАХАХПХХДАВХЗАЩЩХВЗЛЫПАЗЩЫВОЛАЗЩО
             }
+/*            else if(RoundTimeMinute == 99)
+            {
+                //ВЫ ПРАИГРАЛИ ХАХАХПХХДАВХЗАЩЩХВЗЛЫПАЗЩЫВОЛАЗЩО
+                MessageBox.Show("Вы проиграли");
+            }*/
             if (RoundTimeSecond >= 10)
             {
                 if (RoundTimeMinute >= 10)
