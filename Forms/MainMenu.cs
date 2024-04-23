@@ -13,6 +13,7 @@ namespace CourseworkFifteen
         {
             language.LanguageCheckAndSet();
             InitializeComponent();
+
             LoadData();        
         }
 

@@ -30,6 +30,7 @@ namespace CourseworkFifteen
                         if (words[6] == "" || words[6] == "00000000") words[6] = "0-0-0-0-0-0-0-0";
                         string[] WinCatOsn = words[6].Split('-');
 
+                        //MessageBox.Show($"Language >> {Properties.Settings.Default.Language}");
                         if (Properties.Settings.Default.Language == "ru")
                         {
                             labelTime.Text = "Лучшее время: " + words[3];

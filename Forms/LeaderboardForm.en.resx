@@ -117,53 +117,42 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\Img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Login.HeaderText" xml:space="preserve">
+    <value>Name</value>
   </data>
-  <data name="ImgBut7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BestTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
   </data>
-  <data name="ImgBut3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BestStep.HeaderText" xml:space="preserve">
+    <value>Steps</value>
   </data>
-  <data name="ImgBut1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="VictoryOverall.HeaderText" xml:space="preserve">
+    <value>Wins</value>
   </data>
-  <data name="Img2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\Img2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAADOtka5AAAABGdBTUEAALGPC/xhBQAAAANQTFRFvK6h
+        +ms4twAAAAlwSFlzAAAOwwAADsMBx2+oZAAAADZJREFUeNrtwQEBAAAAgiD/r25IQAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA12qCAAABWZSFFAAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="ImgBut4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Leaderboard</value>
   </data>
-  <data name="Img3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\Img3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>Number of wins</value>
   </data>
-  <data name="ImgBut5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>Best time</value>
   </data>
-  <data name="ImgPan3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgPan3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>Best number of steps</value>
   </data>
-  <data name="ImgPan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgPan1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Mode:</value>
   </data>
-  <data name="ImgPan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgPan2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgPan4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgPan4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgBut8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgBut6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgBut2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgBut9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\texture\ImgBut9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Leaderboard</value>
   </data>
 </root>

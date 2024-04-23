@@ -214,6 +214,7 @@ namespace CourseworkFifteen
             this.MaximumSize = new System.Drawing.Size(500, 635);
             this.MinimumSize = new System.Drawing.Size(500, 635);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Пятнашки";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);

@@ -12,12 +12,14 @@ namespace CourseworkFifteen
 {
     public partial class LeaderboardForm : Form
     {
+        LanguageManager language = new LanguageManager();
         DataBaseConnect dataBase = new DataBaseConnect();
         SoundManager sound = new SoundManager();
         private bool Backing;
 
         public LeaderboardForm()
         {
+            language.LanguageCheckAndSet();
             InitializeComponent();
 
             comboBox1.SelectedIndex = 0;

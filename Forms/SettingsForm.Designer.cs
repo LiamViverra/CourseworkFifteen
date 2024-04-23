@@ -34,10 +34,10 @@ namespace CourseworkFifteen
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.AccountBut = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -51,6 +51,7 @@ namespace CourseworkFifteen
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackgroundImage = global::CourseworkFifteen.Properties.Resources.Img1;
             resources.ApplyResources(this.button2, "button2");
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Name = "button2";
@@ -59,6 +60,7 @@ namespace CourseworkFifteen
             // 
             // button3
             // 
+            this.button3.BackgroundImage = global::CourseworkFifteen.Properties.Resources.ImgBut3;
             resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
@@ -66,33 +68,15 @@ namespace CourseworkFifteen
             // 
             // button5
             // 
+            this.button5.BackgroundImage = global::CourseworkFifteen.Properties.Resources.ImgBut5;
             resources.ApplyResources(this.button5, "button5");
             this.button5.Name = "button5";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(174)))), ((int)(((byte)(161)))));
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            resources.GetString("comboBox1.Items"),
-            resources.GetString("comboBox1.Items1"),
-            resources.GetString("comboBox1.Items2")});
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Gainsboro;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
             // AccountBut
             // 
+            this.AccountBut.BackgroundImage = global::CourseworkFifteen.Properties.Resources.ImgBut6;
             resources.ApplyResources(this.AccountBut, "AccountBut");
             this.AccountBut.Name = "AccountBut";
             this.AccountBut.UseVisualStyleBackColor = true;
@@ -101,15 +85,38 @@ namespace CourseworkFifteen
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.Control;
+            this.button4.BackgroundImage = global::CourseworkFifteen.Properties.Resources.ImgBut1;
             resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.Back_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(174)))), ((int)(((byte)(161)))));
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.ForeColor = System.Drawing.Color.White;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(174)))), ((int)(((byte)(161)))));
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Name = "label2";
+            // 
             // SettingsForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::CourseworkFifteen.Properties.Resources.Img2;
             this.Controls.Add(this.button4);
             this.Controls.Add(this.AccountBut);
             this.Controls.Add(this.label2);
@@ -130,9 +137,9 @@ namespace CourseworkFifteen
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button AccountBut;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

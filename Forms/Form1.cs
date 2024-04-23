@@ -399,7 +399,7 @@ namespace CourseworkFifteen
                         {
                             //MessageBox.Show("ПАБЕДАААААААААААААААААААААААААААААААААААААААААААААААААА!!!!!!!!!");
                             OnWin = true;
-                            File.WriteAllBytes("GameData.txt", new byte[0]); //Хуярим содержимое файла с сохранением
+                            File.WriteAllBytes("GameData.txt", new byte[0]); //Уничтожаем содержимое файла с сохранением
 
                             WinForms win = new WinForms(MapSize, RoundTimeMinute, RoundTimeSecond, NumberSteps);
                             win.Show();

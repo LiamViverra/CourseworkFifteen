@@ -38,9 +38,9 @@ namespace CourseworkFifteen
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -114,18 +114,12 @@ namespace CourseworkFifteen
             this.radioButton7.UseVisualStyleBackColor = true;
             this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton_CheckedChanged);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.Back_Click);
-            // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.BackgroundImage = global::CourseworkFifteen.Properties.Resources.Img1;
             resources.ApplyResources(this.button2, "button2");
+            this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.Start_Click);
@@ -139,14 +133,23 @@ namespace CourseworkFifteen
             this.radioButton8.UseVisualStyleBackColor = true;
             this.radioButton8.CheckedChanged += new System.EventHandler(this.radioButton_CheckedChanged);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.Control;
+            this.button3.BackgroundImage = global::CourseworkFifteen.Properties.Resources.ImgBut1;
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Back_Click);
+            // 
             // NewGameForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CourseworkFifteen.Properties.Resources.Img2;
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.radioButton8);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.radioButton6);
             this.Controls.Add(this.radioButton5);
@@ -173,8 +176,8 @@ namespace CourseworkFifteen
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.RadioButton radioButton8;
+        private System.Windows.Forms.Button button3;
     }
 }

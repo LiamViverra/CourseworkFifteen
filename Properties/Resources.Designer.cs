@@ -173,6 +173,16 @@ namespace CourseworkFifteen.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ImgBut9 {
+            get {
+                object obj = ResourceManager.GetObject("ImgBut9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ImgPan1 {
             get {
                 object obj = ResourceManager.GetObject("ImgPan1", resourceCulture);

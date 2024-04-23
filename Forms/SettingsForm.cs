@@ -38,7 +38,7 @@ namespace CourseworkFifteen
             Close();
         }
 
-        private void Confirm_Click(object sender, EventArgs e)
+        private void Confirm_Click(object sender, EventArgs e) //Тут мог быть татарский, но денег на разработку не хватило
         {
             sound.PlayOneShotAudio(1);
             try

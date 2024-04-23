@@ -117,24 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Login.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BestTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="BestStep.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="VictoryOverall.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>The goal of the game is to, through successive movements allowed by the presence of a free field, transfer any initial position of 15 cells to the position shown in the figure on the right.
+To improve the gaming experience, background music can be turned off in the settings by clicking on the corresponding icon</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="label2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAADOtka5AAAABGdBTUEAALGPC/xhBQAAAANQTFRFvK6h
         +ms4twAAAAlwSFlzAAAOwwAADsMBx2+oZAAAADZJREFUeNrtwQEBAAAAgiD/r25IQAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAA12qCAAABWZSFFAAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>How to play?</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Education</value>
   </data>
 </root>

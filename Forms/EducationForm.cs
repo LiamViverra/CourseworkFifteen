@@ -4,11 +4,13 @@ namespace CourseworkFifteen
 {
     public partial class EducationForm : Form
     {
+        LanguageManager language = new LanguageManager();
         SoundManager sound = new SoundManager();
         private bool Backing;
 
         public EducationForm()
         {
+            language.LanguageCheckAndSet();
             InitializeComponent();
         }
 
